@@ -2,7 +2,7 @@
 Working with LaTeX is super convenient, but the downside is that it can make teamwork a challenge. That is especially true if a team includes individuals from fields in which LaTeX is not the default text editing language. In this post, I will walk you through a way to compile your .tex into a .docx. 
 Just as a warning, step 1 is the most tedious step if you are not familiar with command prompts, but fortunately, you just need to run it once. When that’s done, you will never (hopefully ever) have to worry about step 1 again.
 
-## STEP 1: INSTALLING PANDOC
+## STEP 1: Installing Pandcoc
 **Mac OS**
 1.	Make sure you have .tex compiler installed. If you don’t, go here or here.
 2.	Open the terminal:
@@ -30,7 +30,7 @@ Press windows+r and type cmd then press ctrl+shift+enter (that will allow you to
 4.	In the command line, install the compiling tool:
 choco install pandoc
 
-## STEP 2: COMPILING YOUR .TEX INTO A .DOCX
+## STEP 2: Compiling your .tex into a .docx
 If you are a windows user and your files are located in a different drive, first specify the correct drive. Here is an example for the “D:” drive:
 D: 
 cd temp
