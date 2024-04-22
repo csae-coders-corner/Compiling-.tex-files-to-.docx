@@ -1,3 +1,6 @@
+
+![CC Graphics 2024_ TEX](https://github.com/csae-coders-corner/Compiling-.tex-files-to-.docx/assets/148211163/a8d46ef0-a6e4-4c69-b07d-018486c27a2b)
+
 # Compiling-.tex-files-to-.docx
 Working with LaTeX is super convenient, but the downside is that it can make teamwork a challenge. That is especially true if a team includes individuals from fields in which LaTeX is not the default text editing language. In this post, I will walk you through a way to compile your .tex into a .docx. 
 Just as a warning, step 1 is the most tedious step if you are not familiar with command prompts, but fortunately, you just need to run it once. When that’s done, you will never (hopefully ever) have to worry about step 1 again.
