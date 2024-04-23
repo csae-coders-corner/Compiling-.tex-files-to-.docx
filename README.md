@@ -26,10 +26,12 @@ Press command+spacebar to launch Spotlight, then type terminal and press enter.
 Press windows+r and type cmd then press ctrl+shift+enter (that will allow you to open the terminal as admin).
 
 3.	If you don’t already have Chocolatey installed, then install it with this command line (make sure you correct the line break that might occur when you copy/paste this command):
-   
-`@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
 
- 	If it doesn’t work, go here for more information on why it doesn’t work.
+```
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+```
+If it doesn’t work, go here for more information on why it doesn’t work.
+
 4.	In the command line, install the compiling tool:
 choco install pandoc
 
